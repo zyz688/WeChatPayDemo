@@ -8,8 +8,6 @@
     <select id="queryCheck" parameterType="string" resultType="com.yujian.miniappserver.entity.QueryCheck">
 
 
-        select TOTAL_AMOUNT,APP_ID from JL_ZFBDD where OUT_TRADE_NO=#{out_trade_no}
-
 
     </select>
 
@@ -18,8 +16,7 @@
     <update id="upDataCheck" parameterType="map" >
 
 
-        update JL_ZFBDD set TRADE_STATUS=#{result_code} where trim(OUT_TRADE_NO)=#{out_trade_no}
-
+   
 
 
 
