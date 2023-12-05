@@ -8,19 +8,19 @@ package com.yujian.miniappserver.config;
 public class WxpayConfig {
 
     //小程序ID
-    public static String appid = "wxb1e6b761de29e9da";
+    public static String appid = "";
 
     // 小程序的secret
-    public static String secret = "cfd0b10e042ee9bd56f8343a64b684ac";
+    public static String secret = "";
 
     //商户号
-    public static String mch_id = "1648445500";
+    public static String mch_id = "";
 
     // 商户支付秘钥
-    public static String key = "cfd0b10e042ee9bd56f8343a64b684ac";
+    public static String key = "";
 
     // 回调通知地址
-    public static String notify_url = "https://120.79.239.161:9898/weixin/callback";
+    public static String notify_url = "";
 
     //交易类型
     public static  String trade_type = "JSAPI";
