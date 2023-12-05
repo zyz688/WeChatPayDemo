@@ -8,7 +8,7 @@
         <version>2.1.9.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.yujian</groupId>
+    <groupId>com.ze</groupId>
     <artifactId>miniAppServer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>miniAppServer</name>
@@ -190,7 +190,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>com.yujian.miniappserver.MiniAppServerApplication</mainClass>
+                    <mainClass>com.ze.miniappserver.MiniAppServerApplication</mainClass>
                     <layout>JAR</layout>
                     <includeSystemScope>true</includeSystemScope>
                 </configuration>
