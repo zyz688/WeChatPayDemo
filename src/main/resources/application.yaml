@@ -2,10 +2,10 @@ server:
   port: 9898
   ssl:
 
-    key-store: classpath:yujian.com.jks
+    key-store: classpath:
 
-#    key-store-password: v239qg6i
-    key-store-password: hslk8fg7
+#    key-store-password: 
+    key-store-password: 
 
     keyStoreType: JKS
 
@@ -13,10 +13,10 @@ server:
 
 spring:
   datasource:
-    url: jdbc:oracle:thin:@(description=(address=(protocol=tcp)(port=1521)(host=120.79.239.161))(connect_data=(service_name=pdborcl)))
-    username: yjami
-    password: yjami_2018
-    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: 
+    username: 
+    password: 
+    driver-class-name: 
 
 mybatis:
   config-location: classpath:mybatis/mybatis-config.xml
@@ -26,9 +26,9 @@ mybatis:
 logging:
   file:
     # 输出的log文件名
-    name: YUJIANminiAppServiceLog
+    name: 
     # 输出的文件的路径
-    path: C:\miniAppService
+    path: 
     # 限制日志文件的大小
     max-size: 10MB
 
