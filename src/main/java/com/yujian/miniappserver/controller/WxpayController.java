@@ -126,7 +126,7 @@ public class WxpayController {
                         //后台用支付宝交易状态校验
                         String   trade_state =  map.get("result_code").toString();
                         if (StringUtils.equals("SUCCESS",trade_state)){
-                            //修改为支付宝的 交易成功状态
+                            //修改为支付宝的 交易成功状态 看个人情况
                             //微信支付成功 修改数据库支付状态 用支付宝标识
                              logger.info("修改为支付宝的交易成功状态");
                             map.put("result_code","TRADE_SUCCESS");
