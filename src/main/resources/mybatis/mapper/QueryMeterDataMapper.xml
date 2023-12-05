@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yujian.miniappserver.mapper.QueryMeterDataMapper">
+
+
+    <select id="queryCheck" parameterType="string" resultType="com.yujian.miniappserver.entity.QueryCheck">
+
+
+        select TOTAL_AMOUNT,APP_ID from JL_ZFBDD where OUT_TRADE_NO=#{out_trade_no}
+
+
+    </select>
+
+
+
+    <update id="upDataCheck" parameterType="map" >
+
+
+        update JL_ZFBDD set TRADE_STATUS=#{result_code} where trim(OUT_TRADE_NO)=#{out_trade_no}
+
+
+
+
+    </update>
+
+</mapper>

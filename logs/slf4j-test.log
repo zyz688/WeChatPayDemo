@@ -1,0 +1,18 @@
+[2023-07-19 17:18:44.216+0800] [main] INFO  c.y.m.MiniAppServerApplication [50]- Starting MiniAppServerApplication on DESKTOP-VA5HU8E with PID 9040 (C:\Users\YUJIAN\Desktop\NEWminiAppServer\miniAppServer\miniAppServer\target\classes started by YUJIAN in C:\Users\YUJIAN\Desktop\NEWminiAppServer\miniAppServer\miniAppServer)
+[2023-07-19 17:18:44.219+0800] [main] INFO  c.y.m.MiniAppServerApplication [648]- No active profile set, falling back to default profiles: default
+[2023-07-19 17:18:44.941+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [90]- Tomcat initialized with port(s): 9898 (https) 9899 (http)
+[2023-07-19 17:18:44.949+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["https-jsse-nio-9898"]
+[2023-07-19 17:18:44.952+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-9899"]
+[2023-07-19 17:18:44.959+0800] [main] INFO  o.a.tomcat.util.net.NioSelectorPool [173]- Using a shared selector for servlet write/read
+[2023-07-19 17:18:44.960+0800] [main] INFO  o.a.catalina.core.StandardService [173]- Starting service [Tomcat]
+[2023-07-19 17:18:44.961+0800] [main] INFO  o.a.catalina.core.StandardEngine [173]- Starting Servlet Engine: Apache Tomcat/9.0.12
+[2023-07-19 17:18:45.051+0800] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+[2023-07-19 17:18:45.051+0800] [main] INFO  o.s.web.context.ContextLoader [284]- Root WebApplicationContext: initialization completed in 787 ms
+[2023-07-19 17:18:45.377+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [171]- Initializing ExecutorService 'applicationTaskExecutor'
+[2023-07-19 17:18:45.492+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["https-jsse-nio-9898"]
+[2023-07-19 17:18:45.660+0800] [main] INFO  o.a.tomcat.util.net.NioSelectorPool [173]- Using a shared selector for servlet write/read
+[2023-07-19 17:18:45.667+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-9899"]
+[2023-07-19 17:18:45.675+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [202]- Tomcat started on port(s): 9898 (https) 9899 (http) with context path ''
+[2023-07-19 17:18:45.677+0800] [main] INFO  c.y.m.MiniAppServerApplication [59]- Started MiniAppServerApplication in 1.774 seconds (JVM running for 2.243)
+[2023-07-19 17:18:45.678+0800] [main] INFO  c.y.m.MiniAppServerApplication [22]- spring 开始启动
+[2023-07-19 17:20:49.420+0800] [Thread-8] INFO  o.s.s.c.ThreadPoolTaskExecutor [208]- Shutting down ExecutorService 'applicationTaskExecutor'
